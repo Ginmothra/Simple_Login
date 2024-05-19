@@ -21,7 +21,5 @@
     ?>
     <h1>Hello, <?php echo $user['username']; ?> </h1>
     <h1>Your email is <?php echo $user['email']; ?> </h1>
-
-    <a href="logout.php"><button>Logout</button></a>
 </body>
 </html>
