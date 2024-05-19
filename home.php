@@ -6,6 +6,11 @@
     <title>Home</title>
 </head>
 <body>
+    <style>
+        h1{
+            font-family: Arial, sans-serif;
+        }
+    </style>
     <?php
     session_start();
     if (!$_SESSION['user_login']) {
@@ -15,7 +20,7 @@
     $user = $_SESSION['user_login'];
     ?>
     <h1>Hello, <?php echo $user['username']; ?> </h1>
-    <h1>Email : <?php echo $user['email']; ?> </h1>
+    <h1>Your email is <?php echo $user['email']; ?> </h1>
 
     <a href="logout.php"><button>Logout</button></a>
 </body>
