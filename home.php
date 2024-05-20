@@ -19,7 +19,7 @@
 
     $user = $_SESSION['user_login'];
     ?>
-    <h1>Hello, <?php echo $user['username']; ?> </h1>
-    <h1>Your email is <?php echo $user['email']; ?> </h1>
+    <h1 align="center">Hello, <?php echo $user['username']; ?> </h1>
+    <h1 align="start">Your email is <?php echo $user['email']; ?> </h1>
 </body>
 </html>
